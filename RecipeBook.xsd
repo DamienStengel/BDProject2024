@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="cookbox">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="recipes" type="recipeList"/>
+        <xs:element name="ingredients" type="ingredientList"/>
+        <xs:element name="orders" type="orderList"/>
+        <xs:element name="comments" type="commentList"/>
+        <xs:element name="deliveryPersons" type="deliveryPersonList"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="recipeList">
+    <xs:sequence>
+      <xs:element name="recipe" type="recipe" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="recipe">
+    <xs:sequence>
+      <xs:element name="title" type="xs:string"/>
+      <xs:element name="description" type="xs:string"/>
+      <xs:element name="cuisine" type="xs:string"/>
+      <xs:element name="health" type="xs:string"/>
+      <xs:element name="budget" type="xs:decimal"/>
+      <xs:element name="ingredients" type="ingredientList"/>
+      <xs:element name="steps" type="xs:string"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="ingredientList">
+    <xs:sequence>
+      <xs:element name="ingredient" type="ingredient" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ingredient">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="quantity" type="xs:decimal"/>
+      <xs:element name="unit" type="xs:string"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="orderList">
+    <xs:sequence>
+      <xs:element name="order" type="order" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="order">
+    <xs:sequence>
+      <xs:element name="customerName" type="xs:string"/>
+      <xs:element name="deliveryAddress" type="xs:string"/>
+      <xs:element name="recipeIds" type="recipeIdList"/>
+      <xs:element name="totalPrice" type="xs:decimal"/>
+      <xs:element name="orderDate" type="xs:date"/>
+      <xs:element name="deliveryDate" type="xs:date"/>
+      <xs:element name="status" type="xs:string"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="recipeIdList">
+    <xs:sequence>
+      <xs:element name="recipeId" type="xs:IDREF" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+
+  <xs:complexType name="commentList">
+    <xs:sequence>
+      <xs:element name="comment" type="comment" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="comment">
+    <xs:sequence>
+      <xs:element name="author" type="xs:string"/>
+      <xs:element name="content" type="xs:string"/>
+      <xs:element name="date" type="xs:date"/>
+      <xs:element name="recipeId" type="xs:IDREF"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="deliveryPersonList">
+    <xs:sequence>
+      <xs:element name="deliveryPerson" type="deliveryPerson" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="deliveryPerson">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="contact" type="xs:string"/>
+      <xs:element name="deliveriesMade" type="xs:integer"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

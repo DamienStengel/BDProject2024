@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="RecipeVisualisation.xsl"?>
+<cookbox xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="RecipeBook.xsd">
+    <recipes>
+        <recipe id="r1">
+            <title>Salade Niçoise</title>
+            <description>Une salade fraîche et légère idéale pour l'été.</description>
+            <cuisine>Française</cuisine>
+            <health>Sans gluten</health>
+            <budget>15.00</budget>
+            <ingredients>
+                <ingredient id="i1">
+                    <name>Tomate</name>
+                    <quantity>4</quantity>
+                    <unit>unités</unit>
+                </ingredient>
+                <ingredient id="i2">
+                    <name>Thon en conserve</name>
+                    <quantity>200</quantity>
+                    <unit>grammes</unit>
+                </ingredient>
+                <ingredient id="i3">
+                    <name>Olive noire</name>
+                    <quantity>50</quantity>
+                    <unit>grammes</unit>
+                </ingredient>
+            </ingredients>
+            <steps>Coupez les tomates, ajoutez les olives, émiettez le thon, et assaisonnez.</steps>
+        </recipe>
+    </recipes>
+    <ingredients></ingredients>
+    <orders>
+        <order id="o1">
+            <customerName>Jean Dupont</customerName>
+            <deliveryAddress>123 rue de Paris, 75001 Paris</deliveryAddress>
+            <recipeIds>
+                <recipeId>r1</recipeId>
+            </recipeIds>
+            <totalPrice>30.00</totalPrice>
+            <orderDate>2024-03-01</orderDate>
+            <deliveryDate>2024-03-02</deliveryDate>
+            <status>livré</status>
+        </order>
+    </orders>
+    <comments>
+        <comment>
+            <author>Maria</author>
+            <content>Délicieuse recette, facile à préparer et très rafraîchissante pour l'été!</content>
+            <date>2024-03-02</date>
+            <recipeId>r1</recipeId>
+        </comment>
+    </comments>
+    <deliveryPersons>
+        <deliveryPerson>
+            <name>Marc Lavoine</name>
+            <contact>06 12 34 56 78</contact>
+            <deliveriesMade>120</deliveriesMade>
+        </deliveryPerson>
+    </deliveryPersons>
+</cookbox>
