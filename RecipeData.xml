@@ -9,23 +9,38 @@
             <health>Sans gluten</health>
             <budget>15.00</budget>
             <ingredients>
-                <ingredient id="i1">
-                    <name>Tomate</name>
-                    <quantity>4</quantity>
-                    <unit>unités</unit>
-                </ingredient>
-                <ingredient id="i2">
-                    <name>Thon en conserve</name>
-                    <quantity>200</quantity>
-                    <unit>grammes</unit>
-                </ingredient>
-                <ingredient id="i3">
-                    <name>Olive noire</name>
-                    <quantity>50</quantity>
-                    <unit>grammes</unit>
-                </ingredient>
+                <ingredient id="i1"><name>Tomate</name><quantity>4</quantity><unit>unités</unit></ingredient>
+                <ingredient id="i2"><name>Thon en conserve</name><quantity>200</quantity><unit>grammes</unit></ingredient>
+                <ingredient id="i3"><name>Olive noire</name><quantity>50</quantity><unit>grammes</unit></ingredient>
             </ingredients>
             <steps>Coupez les tomates, ajoutez les olives, émiettez le thon, et assaisonnez.</steps>
+        </recipe>
+        <recipe id="r2">
+            <title>Poulet Basquaise</title>
+            <description>Un plat convivial et parfumé, riche en saveurs.</description>
+            <cuisine>Sud-ouest de la France</cuisine>
+            <health>Équilibré</health>
+            <budget>20.00</budget>
+            <ingredients>
+                <ingredient id="i4"><name>Poulet</name><quantity>1</quantity><unit>kg</unit></ingredient>
+                <ingredient id="i5"><name>Poivron rouge</name><quantity>2</quantity><unit>unités</unit></ingredient>
+                <ingredient id="i6"><name>Tomate</name><quantity>3</quantity><unit>unités</unit></ingredient>
+            </ingredients>
+            <steps>Faites revenir le poulet, ajoutez les légumes et laissez mijoter.</steps>
+        </recipe>
+        <!-- Nouvelle recette: Crêpes Suzette -->
+        <recipe id="r3">
+            <title>Crêpes Suzette</title>
+            <description>Un dessert classique français avec une sauce au beurre et à l'orange.</description>
+            <cuisine>Française</cuisine>
+            <health>Occasionnel</health>
+            <budget>10.00</budget>
+            <ingredients>
+                <ingredient id="i7"><name>Farine</name><quantity>250</quantity><unit>grammes</unit></ingredient>
+                <ingredient id="i8"><name>Oeuf</name><quantity>3</quantity><unit>unités</unit></ingredient>
+                <ingredient id="i9"><name>Orange</name><quantity>2</quantity><unit>unités</unit></ingredient>
+            </ingredients>
+            <steps>Préparez les crêpes, réalisez la sauce suzette et nappez les crêpes.</steps>
         </recipe>
     </recipes>
     <ingredients></ingredients>
@@ -33,13 +48,20 @@
         <order id="o1">
             <customerName>Jean Dupont</customerName>
             <deliveryAddress>123 rue de Paris, 75001 Paris</deliveryAddress>
-            <recipeIds>
-                <recipeId>r1</recipeId>
-            </recipeIds>
+            <recipeIds><recipeId>r1</recipeId></recipeIds>
             <totalPrice>30.00</totalPrice>
             <orderDate>2024-03-01</orderDate>
             <deliveryDate>2024-03-02</deliveryDate>
             <status>livré</status>
+        </order>
+        <order id="o2">
+            <customerName>Anne Lise</customerName>
+            <deliveryAddress>456 avenue de la République, 75011 Paris</deliveryAddress>
+            <recipeIds><recipeId>r2</recipeId><recipeId>r3</recipeId></recipeIds>
+            <totalPrice>45.00</totalPrice>
+            <orderDate>2024-03-03</orderDate>
+            <deliveryDate>2024-03-04</deliveryDate>
+            <status>en préparation</status>
         </order>
     </orders>
     <comments>
@@ -49,12 +71,23 @@
             <date>2024-03-02</date>
             <recipeId>r1</recipeId>
         </comment>
+        <comment>
+            <author>Julien</author>
+            <content>Le poulet basquaise était un régal, toute la famille a adoré!</content>
+            <date>2024-03-04</date>
+            <recipeId>r2</recipeId>
+        </comment>
     </comments>
     <deliveryPersons>
         <deliveryPerson>
             <name>Marc Lavoine</name>
             <contact>06 12 34 56 78</contact>
             <deliveriesMade>120</deliveriesMade>
+        </deliveryPerson>
+        <deliveryPerson>
+            <name>Lucie Renard</name>
+            <contact>07 89 45 67 89</contact>
+            <deliveriesMade>95</deliveriesMade>
         </deliveryPerson>
     </deliveryPersons>
 </cookbox>
