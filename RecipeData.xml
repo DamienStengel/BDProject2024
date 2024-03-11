@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="RecipeVisualisation.xsl"?>
+<?xml-stylesheet type="text/xsl" href="Scenario5.xsl"?>
 <cookbox xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="RecipeBook.xsd">
     <recipes>
         <recipe id="r1">
@@ -28,7 +28,6 @@
             </ingredients>
             <steps>Faites revenir le poulet, ajoutez les légumes et laissez mijoter.</steps>
         </recipe>
-        <!-- Nouvelle recette: Crêpes Suzette -->
         <recipe id="r3">
             <title>Crêpes Suzette</title>
             <description>Un dessert classique français avec une sauce au beurre et à l'orange.</description>
@@ -42,8 +41,35 @@
             </ingredients>
             <steps>Préparez les crêpes, réalisez la sauce suzette et nappez les crêpes.</steps>
         </recipe>
+        <recipe id="r4">
+            <title>Salade de Quinoa</title>
+            <description>Une salade nutritive et riche en protéines, parfaite pour un repas sain.</description>
+            <cuisine>Internationale</cuisine>
+            <health>Sans gluten</health>
+            <budget>12.00</budget>
+            <ingredients>
+                <ingredient id="i10"><name>Quinoa</name><quantity>200</quantity><unit>grammes</unit></ingredient>
+                <ingredient id="i11"><name>Concombre</name><quantity>1</quantity><unit>unité</unit></ingredient>
+                <ingredient id="i12"><name>Poivron rouge</name><quantity>1</quantity><unit>unité</unit></ingredient>
+                <ingredient id="i13"><name>Feta</name><quantity>100</quantity><unit>grammes</unit></ingredient>
+            </ingredients>
+            <steps>Rincez le quinoa, faites-le cuire, puis mélangez avec les légumes coupés et la feta émiettée.</steps>
+        </recipe>
+        <recipe id="r5">
+            <title>Saumon aux Légumes</title>
+            <description>Un plat simple et délicieux, riche en oméga-3.</description>
+            <cuisine>Internationale</cuisine>
+            <health>Équilibré</health>
+            <budget>18.00</budget>
+            <ingredients>
+                <ingredient id="i14"><name>Saumon</name><quantity>400</quantity><unit>grammes</unit></ingredient>
+                <ingredient id="i15"><name>Brocoli</name><quantity>200</quantity><unit>grammes</unit></ingredient>
+                <ingredient id="i16"><name>Carotte</name><quantity>2</quantity><unit>unités</unit></ingredient>
+            </ingredients>
+            <steps>Assaisonnez le saumon et faites-le cuire au four. Servez avec des légumes vapeur.</steps>
+        </recipe>
+
     </recipes>
-    <ingredients></ingredients>
     <orders>
         <order id="o1">
             <customerName>Jean Dupont</customerName>

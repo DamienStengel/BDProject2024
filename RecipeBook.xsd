@@ -5,7 +5,6 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element name="recipes" type="recipeList"/>
-        <xs:element name="ingredients" type="ingredientList"/>
         <xs:element name="orders" type="orderList"/>
         <xs:element name="comments" type="commentList"/>
         <xs:element name="deliveryPersons" type="deliveryPersonList"/>
