@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="Scenario5.xsl"?>
+<?xml-stylesheet type="text/xsl" href="Scenario4.xsl"?>
 <cookbox xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="RecipeBook.xsd">
     <recipes>
         <recipe id="r1">
@@ -9,9 +9,21 @@
             <health>Sans gluten</health>
             <budget>15.00</budget>
             <ingredients>
-                <ingredient id="i1"><name>Tomate</name><quantity>4</quantity><unit>unités</unit></ingredient>
-                <ingredient id="i2"><name>Thon en conserve</name><quantity>200</quantity><unit>grammes</unit></ingredient>
-                <ingredient id="i3"><name>Olive noire</name><quantity>50</quantity><unit>grammes</unit></ingredient>
+                <ingredient id="i1">
+                    <name>Tomate</name>
+                    <quantity>4</quantity>
+                    <unit>unités</unit>
+                </ingredient>
+                <ingredient id="i2">
+                    <name>Thon en conserve</name>
+                    <quantity>200</quantity>
+                    <unit>grammes</unit>
+                </ingredient>
+                <ingredient id="i3">
+                    <name>Olive noire</name>
+                    <quantity>50</quantity>
+                    <unit>grammes</unit>
+                </ingredient>
             </ingredients>
             <steps>Coupez les tomates, ajoutez les olives, émiettez le thon, et assaisonnez.</steps>
         </recipe>
@@ -22,9 +34,21 @@
             <health>Équilibré</health>
             <budget>20.00</budget>
             <ingredients>
-                <ingredient id="i4"><name>Poulet</name><quantity>1</quantity><unit>kg</unit></ingredient>
-                <ingredient id="i5"><name>Poivron rouge</name><quantity>2</quantity><unit>unités</unit></ingredient>
-                <ingredient id="i6"><name>Tomate</name><quantity>3</quantity><unit>unités</unit></ingredient>
+                <ingredient id="i4">
+                    <name>Poulet</name>
+                    <quantity>1</quantity>
+                    <unit>kg</unit>
+                </ingredient>
+                <ingredient id="i5">
+                    <name>Poivron rouge</name>
+                    <quantity>2</quantity>
+                    <unit>unités</unit>
+                </ingredient>
+                <ingredient id="i6">
+                    <name>Tomate</name>
+                    <quantity>3</quantity>
+                    <unit>unités</unit>
+                </ingredient>
             </ingredients>
             <steps>Faites revenir le poulet, ajoutez les légumes et laissez mijoter.</steps>
         </recipe>
@@ -35,9 +59,21 @@
             <health>Occasionnel</health>
             <budget>10.00</budget>
             <ingredients>
-                <ingredient id="i7"><name>Farine</name><quantity>250</quantity><unit>grammes</unit></ingredient>
-                <ingredient id="i8"><name>Oeuf</name><quantity>3</quantity><unit>unités</unit></ingredient>
-                <ingredient id="i9"><name>Orange</name><quantity>2</quantity><unit>unités</unit></ingredient>
+                <ingredient id="i7">
+                    <name>Farine</name>
+                    <quantity>250</quantity>
+                    <unit>grammes</unit>
+                </ingredient>
+                <ingredient id="i8">
+                    <name>Oeuf</name>
+                    <quantity>3</quantity>
+                    <unit>unités</unit>
+                </ingredient>
+                <ingredient id="i9">
+                    <name>Orange</name>
+                    <quantity>2</quantity>
+                    <unit>unités</unit>
+                </ingredient>
             </ingredients>
             <steps>Préparez les crêpes, réalisez la sauce suzette et nappez les crêpes.</steps>
         </recipe>
@@ -48,10 +84,26 @@
             <health>Sans gluten</health>
             <budget>12.00</budget>
             <ingredients>
-                <ingredient id="i10"><name>Quinoa</name><quantity>200</quantity><unit>grammes</unit></ingredient>
-                <ingredient id="i11"><name>Concombre</name><quantity>1</quantity><unit>unité</unit></ingredient>
-                <ingredient id="i12"><name>Poivron rouge</name><quantity>1</quantity><unit>unité</unit></ingredient>
-                <ingredient id="i13"><name>Feta</name><quantity>100</quantity><unit>grammes</unit></ingredient>
+                <ingredient id="i10">
+                    <name>Quinoa</name>
+                    <quantity>200</quantity>
+                    <unit>grammes</unit>
+                </ingredient>
+                <ingredient id="i11">
+                    <name>Concombre</name>
+                    <quantity>1</quantity>
+                    <unit>unité</unit>
+                </ingredient>
+                <ingredient id="i12">
+                    <name>Poivron rouge</name>
+                    <quantity>1</quantity>
+                    <unit>unité</unit>
+                </ingredient>
+                <ingredient id="i13">
+                    <name>Feta</name>
+                    <quantity>100</quantity>
+                    <unit>grammes</unit>
+                </ingredient>
             </ingredients>
             <steps>Rincez le quinoa, faites-le cuire, puis mélangez avec les légumes coupés et la feta émiettée.</steps>
         </recipe>
@@ -62,58 +114,148 @@
             <health>Équilibré</health>
             <budget>18.00</budget>
             <ingredients>
-                <ingredient id="i14"><name>Saumon</name><quantity>400</quantity><unit>grammes</unit></ingredient>
-                <ingredient id="i15"><name>Brocoli</name><quantity>200</quantity><unit>grammes</unit></ingredient>
-                <ingredient id="i16"><name>Carotte</name><quantity>2</quantity><unit>unités</unit></ingredient>
+                <ingredient id="i14">
+                    <name>Saumon</name>
+                    <quantity>400</quantity>
+                    <unit>grammes</unit>
+                </ingredient>
+                <ingredient id="i15">
+                    <name>Brocoli</name>
+                    <quantity>200</quantity>
+                    <unit>grammes</unit>
+                </ingredient>
+                <ingredient id="i16">
+                    <name>Carotte</name>
+                    <quantity>2</quantity>
+                    <unit>unités</unit>
+                </ingredient>
             </ingredients>
             <steps>Assaisonnez le saumon et faites-le cuire au four. Servez avec des légumes vapeur.</steps>
         </recipe>
-
+        <recipe id="r6">
+            <title>Salade de Fruits</title>
+            <description>Un dessert frais et léger, idéal pour terminer un repas copieux.</description>
+            <cuisine>Internationale</cuisine>
+            <health>Équilibré</health>
+            <budget>10.00</budget>
+            <ingredients>
+                <ingredient id="i17">
+                    <name>Fraise</name>
+                    <quantity>200</quantity>
+                    <unit>grammes</unit>
+                </ingredient>
+                <ingredient id="i18">
+                    <name>Banane</name>
+                    <quantity>2</quantity>
+                    <unit>unités</unit>
+                </ingredient>
+                <ingredient id="i19">
+                    <name>Orange</name>
+                    <quantity>2</quantity>
+                    <unit>unités</unit>
+                </ingredient>
+            </ingredients>
+            <steps>Lavez et coupez les fruits, puis mélangez-les dans un saladier.</steps>
+        </recipe>
     </recipes>
     <orders>
         <order id="o1">
-            <customerName>Jean Dupont</customerName>
+            <customerId>c1</customerId>
             <deliveryAddress>123 rue de Paris, 75001 Paris</deliveryAddress>
-            <recipeIds><recipeId>r1</recipeId></recipeIds>
-            <totalPrice>30.00</totalPrice>
+            <recipeIds>
+                <recipeId>r2</recipeId>
+                <recipeId>r6</recipeId>
+            </recipeIds>
+            <totalPrice>25.00</totalPrice>
             <orderDate>2024-03-01</orderDate>
-            <deliveryDate>2024-03-02</deliveryDate>
-            <status>livré</status>
+            <status>Livrée</status>
+            <deliveryPersonId>d2</deliveryPersonId>
+            <deliveryDate>2024-03-02-13:00</deliveryDate>
         </order>
         <order id="o2">
-            <customerName>Anne Lise</customerName>
+            <customerId>c3</customerId>
             <deliveryAddress>456 avenue de la République, 75011 Paris</deliveryAddress>
-            <recipeIds><recipeId>r2</recipeId><recipeId>r3</recipeId></recipeIds>
+            <recipeIds>
+                <recipeId>r2</recipeId>
+                <recipeId>r3</recipeId>
+            </recipeIds>
             <totalPrice>45.00</totalPrice>
             <orderDate>2024-03-03</orderDate>
-            <deliveryDate>2024-03-04</deliveryDate>
-            <status>en préparation</status>
+            <status>En préparation</status>
+            <estimatedDeliveryDate>2024-03-05-12:30</estimatedDeliveryDate>
+        </order>
+        <order id="o3">
+            <customerId>c2</customerId>
+            <deliveryAddress>789 boulevard Haussmann, 75008 Paris</deliveryAddress>
+            <recipeIds>
+                <recipeId>r4</recipeId>
+                <recipeId>r5</recipeId>
+                <recipeId>r6</recipeId>
+            </recipeIds>
+            <totalPrice>40.00</totalPrice>
+            <orderDate>2024-03-04</orderDate>
+            <status>En attente</status>
+            <estimatedDeliveryDate>2024-03-06-13:00</estimatedDeliveryDate>
+        </order>
+        <order id="o4">
+            <customerId>c1</customerId>
+            <deliveryAddress>1011 rue de la Paix, 75002 Paris</deliveryAddress>
+            <recipeIds>
+                <recipeId>r1</recipeId>
+                <recipeId>r2</recipeId>
+                <recipeId>r3</recipeId>
+                <recipeId>r4</recipeId>
+                <recipeId>r5</recipeId>
+                <recipeId>r6</recipeId>
+            </recipeIds>
+            <totalPrice>145.00</totalPrice>
+            <orderDate>2024-03-05</orderDate>
+            <status>En livraison</status>
+            <estimatedDeliveryDate>2024-03-07-12:00</estimatedDeliveryDate>
         </order>
     </orders>
+    <customers>
+        <customer id="c1">
+            <name>Jean Dupont</name>
+            <contact>0612345678</contact>
+            <address>123 rue de Paris, 75001 Paris</address>
+            <email>jean.dupont@email.com</email>
+        </customer>
+        <customer id="c2">
+            <name>Anne Lise</name>
+            <contact>0789456789</contact>
+            <address>456 avenue de la République, 75011 Paris</address>
+            <email>anne.lise@email.com</email>
+        </customer>
+        <customer id="c3">
+            <name>Marie Dupuis</name>
+            <contact>0612345678</contact>
+            <address>789 boulevard Haussmann, 75008 Paris</address>
+            <email>marie.dupuis@email.com</email>
+        </customer>
+    </customers>
     <comments>
         <comment>
-            <author>Maria</author>
+            <customerId>c1</customerId>
             <content>Délicieuse recette, facile à préparer et très rafraîchissante pour l'été!</content>
             <date>2024-03-02</date>
             <recipeId>r1</recipeId>
         </comment>
         <comment>
-            <author>Julien</author>
+            <customerId>c1</customerId>
             <content>Le poulet basquaise était un régal, toute la famille a adoré!</content>
-            <date>2024-03-04</date>
+            <date>2024-03-02</date>
             <recipeId>r2</recipeId>
         </comment>
     </comments>
     <deliveryPersons>
-        <deliveryPerson>
+        <deliveryPerson id="d1">
             <name>Marc Lavoine</name>
-            <contact>06 12 34 56 78</contact>
-            <deliveriesMade>120</deliveriesMade>
+            <contact>0612345678</contact>
         </deliveryPerson>
-        <deliveryPerson>
+        <deliveryPerson id="d2">
             <name>Lucie Renard</name>
-            <contact>07 89 45 67 89</contact>
-            <deliveriesMade>95</deliveriesMade>
+            <contact>0789456789</contact>
         </deliveryPerson>
     </deliveryPersons>
 </cookbox>
