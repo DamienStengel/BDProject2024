@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipesByBudget>
+  <budgetGroup>
+    <budget>10.00</budget>
+    <recipes>
+      <recipe>
+        <id>r3</id>
+        <title>Crêpes Suzette</title>
+        <description>Un dessert classique français avec une sauce au beurre et à l'orange.</description>
+        <cuisine>Française</cuisine>
+        <health>Occasionnel</health>
+        <ingredients>
+          <ingredient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="i7">
+            <name>Farine</name>
+            <quantity>250</quantity>
+            <unit>grammes</unit>
+          </ingredient>
+          <ingredient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="i8">
+            <name>Oeuf</name>
+            <quantity>3</quantity>
+            <unit>unités</unit>
+          </ingredient>
+          <ingredient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="i9">
+            <name>Orange</name>
+            <quantity>2</quantity>
+            <unit>unités</unit>
+          </ingredient>
+        </ingredients>
+        <steps>Préparez les crêpes, réalisez la sauce suzette et nappez les crêpes.</steps>
+      </recipe>
+    </recipes>
+  </budgetGroup>
+  <budgetGroup>
+    <budget>12.00</budget>
+    <recipes>
+      <recipe>
+        <id>r4</id>
+        <title>Salade de Quinoa</title>
+        <description>Une salade nutritive et riche en protéines, parfaite pour un repas sain.</description>
+        <cuisine>Internationale</cuisine>
+        <health>Sans gluten</health>
+        <ingredients>
+          <ingredient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="i10">
+            <name>Quinoa</name>
+            <quantity>200</quantity>
+            <unit>grammes</unit>
+          </ingredient>
+          <ingredient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="i11">
+            <name>Concombre</name>
+            <quantity>1</quantity>
+            <unit>unité</unit>
+          </ingredient>
+          <ingredient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="i12">
+            <name>Poivron rouge</name>
+            <quantity>1</quantity>
+            <unit>unité</unit>
+          </ingredient>
+          <ingredient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="i13">
+            <name>Feta</name>
+            <quantity>100</quantity>
+            <unit>grammes</unit>
+          </ingredient>
+        </ingredients>
+        <steps>Rincez le quinoa, faites-le cuire, puis mélangez avec les légumes coupés et la feta émiettée.</steps>
+      </recipe>
+    </recipes>
+  </budgetGroup>
+  <budgetGroup>
+    <budget>15.00</budget>
+    <recipes>
+      <recipe>
+        <id>r1</id>
+        <title>Salade Niçoise</title>
+        <description>Une salade fraîche et légère idéale pour l'été.</description>
+        <cuisine>Française</cuisine>
+        <health>Sans gluten</health>
+        <ingredients>
+          <ingredient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="i1">
+            <name>Tomate</name>
+            <quantity>4</quantity>
+            <unit>unités</unit>
+          </ingredient>
+          <ingredient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="i2">
+            <name>Thon en conserve</name>
+            <quantity>200</quantity>
+            <unit>grammes</unit>
+          </ingredient>
+          <ingredient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="i3">
+            <name>Olive noire</name>
+            <quantity>50</quantity>
+            <unit>grammes</unit>
+          </ingredient>
+        </ingredients>
+        <steps>Coupez les tomates, ajoutez les olives, émiettez le thon, et assaisonnez.</steps>
+      </recipe>
+    </recipes>
+  </budgetGroup>
+  <budgetGroup>
+    <budget>18.00</budget>
+    <recipes>
+      <recipe>
+        <id>r5</id>
+        <title>Saumon aux Légumes</title>
+        <description>Un plat simple et délicieux, riche en oméga-3.</description>
+        <cuisine>Internationale</cuisine>
+        <health>Équilibré</health>
+        <ingredients>
+          <ingredient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="i14">
+            <name>Saumon</name>
+            <quantity>400</quantity>
+            <unit>grammes</unit>
+          </ingredient>
+          <ingredient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="i15">
+            <name>Brocoli</name>
+            <quantity>200</quantity>
+            <unit>grammes</unit>
+          </ingredient>
+          <ingredient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="i16">
+            <name>Carotte</name>
+            <quantity>2</quantity>
+            <unit>unités</unit>
+          </ingredient>
+        </ingredients>
+        <steps>Assaisonnez le saumon et faites-le cuire au four. Servez avec des légumes vapeur.</steps>
+      </recipe>
+    </recipes>
+  </budgetGroup>
+  <budgetGroup>
+    <budget>20.00</budget>
+    <recipes>
+      <recipe>
+        <id>r2</id>
+        <title>Poulet Basquaise</title>
+        <description>Un plat convivial et parfumé, riche en saveurs.</description>
+        <cuisine>Sud-ouest de la France</cuisine>
+        <health>Équilibré</health>
+        <ingredients>
+          <ingredient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="i4">
+            <name>Poulet</name>
+            <quantity>1</quantity>
+            <unit>kg</unit>
+          </ingredient>
+          <ingredient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="i5">
+            <name>Poivron rouge</name>
+            <quantity>2</quantity>
+            <unit>unités</unit>
+          </ingredient>
+          <ingredient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="i6">
+            <name>Tomate</name>
+            <quantity>3</quantity>
+            <unit>unités</unit>
+          </ingredient>
+        </ingredients>
+        <steps>Faites revenir le poulet, ajoutez les légumes et laissez mijoter.</steps>
+      </recipe>
+    </recipes>
+  </budgetGroup>
+</recipesByBudget>
